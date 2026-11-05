@@ -50,18 +50,23 @@ FFmpeg is bundled through `ffmpeg-static`, so you don't need to install it yours
 
 ## 🚀 Quick Start
 
-```bash
-# 1) Clone the project
-git clone https://github.com/<your-username>/wartil-quran-bot.git
-cd wartil-quran-bot
+**1) Download the project**
 
-# 2) Install dependencies
+On this page, click the green **`<> Code`** button, then **Download ZIP**. Extract the ZIP, then open a terminal inside the extracted folder:
+
+- **Windows:** open the folder in File Explorer, type `cmd` in the address bar, and press Enter.
+- **Mac / Linux:** right-click the folder and choose *Open in Terminal*.
+
+**2) Install and run**
+
+```bash
+# Install dependencies
 npm install
 
-# 3) Create your config file, then add your BOT_TOKEN and CLIENT_ID
+# Create your config file, then add your BOT_TOKEN and CLIENT_ID
 cp .env.example .env        # Windows (CMD): copy .env.example .env
 
-# 4) Start the bot
+# Start the bot
 npm start
 ```
 
@@ -189,18 +194,23 @@ Released under the **MIT License**. You are free to use, modify and distribute i
 
 ## 🚀 تشغيل سريع
 
-```bash
-# 1) نزّل المشروع
-git clone https://github.com/<اسمك>/wartil-quran-bot.git
-cd wartil-quran-bot
+**1) نزّل المشروع**
 
-# 2) نزّل المكتبات
+من الصفحة دي دوس على زرار **`<> Code`** الأخضر، وبعدين **Download ZIP**. فُك ضغط الملف، وبعدين افتح Terminal جوه الفولدر اللي فكيته:
+
+- **ويندوز:** افتح الفولدر في الـ File Explorer، واكتب `cmd` في شريط العنوان، واضغط Enter.
+- **ماك / لينكس:** كليك يمين على الفولدر واختار *Open in Terminal*.
+
+**2) نزّل المكتبات وشغّل**
+
+```bash
+# نزّل المكتبات
 npm install
 
-# 3) جهّز ملف الإعدادات وحط فيه BOT_TOKEN و CLIENT_ID
+# جهّز ملف الإعدادات وحط فيه BOT_TOKEN و CLIENT_ID
 cp .env.example .env        # ويندوز (CMD): copy .env.example .env
 
-# 4) شغّل البوت
+# شغّل البوت
 npm start
 ```
 
